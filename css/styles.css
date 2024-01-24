@@ -1,24 +1,38 @@
 /*Fonts*/
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
 .body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: white;
-
 }
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .webstudio {
     color:  #2e2f42;
 
 }
-.header-logo {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #4d5ae5;
-}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -29,26 +43,25 @@
     color: #4d5ae5;
     text-transform: uppercase;
 }
-.footer-studio {
-    color: #F4F4FD;
-    ;
-}
-.footer-text {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-    color: #F4F4FD;
-}
 
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-}
+
 /*Header*/
+.header {
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4d5ae5;
+    padding-bottom: 25.5px;
+    padding-top: 25.5px;
+}
 .header-menu-list {
     font-size: 16px;
     font-weight: 500;
@@ -83,6 +96,8 @@ a {
 /* Hero section 1 */
 .hero {
     background-color: #2E2F42;
+    padding-bottom: 128px;
+    padding-top: 192px;
 }
 .text-hero {
 font-size: 56px;
@@ -90,8 +105,10 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 48px;
 }
 .hero-button {
+    display: inline-flex;
 background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 color: white;
@@ -204,4 +221,16 @@ text-align: left;
 /* footer */
 .footer {
     background-color: #2E2F42;
+}
+.footer-studio {
+    color: #F4F4FD;
+    ;
+}
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F4F4FD;
 }
