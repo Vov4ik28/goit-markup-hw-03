@@ -103,6 +103,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.04em;
 cursor: pointer;
+padding: 16px 32px;
 }
 .hero-button:hover ,
 .hero-button:focus {
@@ -111,9 +112,9 @@ cursor: pointer;
 
 
 /*about section 2*/
-.section-one-title {
-    line-height: 1.2;
-    color: #2E2F42;
+.section-two {
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 .section-one-subtitle {
 color: #2E2F42;
