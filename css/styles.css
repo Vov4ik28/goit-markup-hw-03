@@ -67,6 +67,7 @@ background: var(--WHITE, #FFF);
     color: #4d5ae5;
     padding-bottom: 25.5px;
     padding-top: 25.5px;
+    margin-right: 76px;
 }
 .adress-list {
     display: flex;
