@@ -191,7 +191,8 @@ letter-spacing: 0.02em;
 
 
 /*Portfolio section 4*/
- .portfolio-title {
+
+.portfolio-title {
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -199,14 +200,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
  }
- .portfolio-list {
-    display: flex;
-    gap: 24px;
- }
+
  .portfolio-item {
     display: inline-flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 width: 360px;
