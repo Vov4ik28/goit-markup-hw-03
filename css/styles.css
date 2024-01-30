@@ -44,6 +44,9 @@ p,h1,h2,h3,h4,h5,h6 {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 }
+.header-menu-list {
+    padding: 24px 0 24px 0;
+}
 .header-menu-link {
     padding: 24px 0 24px 0;
 }
@@ -110,6 +113,7 @@ background: var(--WHITE, #FFF);
     background-color: #2E2F42;
     padding-bottom: 188px;
     padding-top: 188px;
+    align-items: center;
 }
 .text-hero {
     color: #FFFFFF;
