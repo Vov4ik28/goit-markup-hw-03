@@ -43,7 +43,9 @@ p,h1,h2,h3,h4,h5,h6 {
     padding-top: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
-
+.header-menu-list {
+    padding: 24px 0 24px 0;
+}
 }
 .header-container {
     display: flex;
@@ -117,6 +119,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 48px;
+max-width: 496px;
+
 }
 .hero-button {
     display: block;
@@ -134,6 +138,9 @@ border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 align-items: flex-start;
 gap: 10px;
+height: 56px;
+min-width: 169px;
+border: none;
 }
 .hero-button:hover ,
 .hero-button:focus {
@@ -145,6 +152,9 @@ gap: 10px;
 .section-one-list {
     display: flex;
     gap: 24px;
+    padding: 188px 0 188px 0;
+    flex-wrap: wrap;
+    
 }
 .section-one-subtitle {
     margin-bottom: 8px;
@@ -158,6 +168,9 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
+}
+.section-one-item {
+    width: calc((100% - 72px) / 4);
 }
 
 /*Team section 3*/
