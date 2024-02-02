@@ -18,6 +18,9 @@ p,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
+img {
+    display: block;
+}
 
 /* Container */
 .container {
@@ -39,8 +42,6 @@ p,h1,h2,h3,h4,h5,h6 {
 
 /*Header*/
 .header {
-    padding-bottom: 24px;
-    padding-top: 24px;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
 }
@@ -153,7 +154,6 @@ border: none;
 .section-one-list {
     display: flex;
     gap: 24px;
-    padding: 188px 0 188px 0;
     flex-wrap: wrap;
     
 }
@@ -201,16 +201,6 @@ letter-spacing: 0.02em;
     align-items: center;
 }
 .team-item {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    display: inline-flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -226,6 +216,7 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 .team-subtitle {
+    color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -282,7 +273,6 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #2E2F42;
-padding-left: 16px;
 margin-bottom: 8px;
 
  }
@@ -290,7 +280,6 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-left: 16px;
  }
 
 
